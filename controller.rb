@@ -51,7 +51,7 @@ get '/start/scissors/paper' do
   erb(:game_result)
 end
 
-get '/start/:opt1/:opt2/result' do
+get '/start/:opt1/:opt2/' do
   player_1_choice = params[:opt1]
   player_2_choice = params[:opt2]
   @game = Game.new(player_1_choice, player_2_choice)
