@@ -21,17 +21,17 @@ def setup
 end
 
 def test_game__rock_wins
-  assert_equal("rock wins", @game1.play)
+  assert_equal("PLAYER 1 WINS!", @game1.play)
 end
 def test_game__scissors_wins
-  assert_equal("paper wins", @game2.play)
+  assert_equal("PLAYER 2 WINS!", @game2.play)
 end
 def test_game__tie
-  assert_equal("tie", @game3.play)
+  assert_equal("A TIE!", @game3.play)
 end
 
 def test_game__paper_wins
-  assert_equal("paper wins", @game4.play)
+  assert_equal("PLAYER 1 WINS!", @game4.play)
 end
 
 

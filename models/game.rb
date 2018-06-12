@@ -12,33 +12,33 @@ end
 def play()
 
   if @player_1_choice == "rock" && @player_2_choice == "scissors"
-    return "rock wins"
+    return "PLAYER 1 WINS!"
   end
   if @player_1_choice == "rock" && @player_2_choice == "rock"
-    return "tie"
+    return "A TIE!"
   end
   if @player_1_choice == "rock" && @player_2_choice == "paper"
-    return "paper wins"
+    return "PLAYER 2 WINS!"
   end
 
   if @player_1_choice == "scissors" && @player_2_choice == "scissors"
-    return "tie"
+    return "A TIE!"
   end
   if @player_1_choice == "scissors" && @player_2_choice == "rock"
-    return "scissors lose"
+    return "PLAYER 2 WINS!"
   end
   if @player_1_choice == "scissors" && @player_2_choice == "paper"
-    return "scissors wins"
+    return "PLAYER 1 WINS!"
   end
 
   if @player_1_choice == "paper" && @player_2_choice == "scissors"
-    return "paper lose"
+    return "PLAYER 2 WINS!"
   end
   if @player_1_choice == "paper" && @player_2_choice == "rock"
-    return "paper wins"
+    return "PLAYER 1 WINS!"
   end
   if @player_1_choice == "paper" && @player_2_choice == "paper"
-    return "tie"
+    return "A TIE!"
   end
 
 end
