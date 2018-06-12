@@ -1,5 +1,25 @@
+
+
+html * {
+  text-align: center;
+  font-family: 'Sunflower', sans-serif;
+  font-size: 35px;
+}
+
+
 body {
  background-color: rgb(16, 189, 163);
 
+
+}
+
+li {
+
+  font-size: 35px;
+}
+
+#RPS {
+
+  font-size: 50px;
 
 }
