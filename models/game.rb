@@ -2,6 +2,8 @@ require_relative('./player2.rb')
 require_relative('./player1.rb')
 class Game
 
+attr_reader :player_1_choice, :player_2_choice
+
 def initialize(player_1_choice,player_2_choice)
   @player_1_choice = player_1_choice
   @player_2_choice = player_2_choice

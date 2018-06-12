@@ -15,7 +15,7 @@ def setup
   player_2_choice = Player2.new("rock").player_2_choice
   @game3 = Game.new(player_1_choice, player_2_choice)
   player_1_choice = Player1.new("paper").player_1_choice
-  player_2_choice = Player2.new("rock").player_2_choice
+  player_2_choice =    Player2.new("rock").player_2_choice
   @game4 = Game.new(player_1_choice, player_2_choice)
 
 end
