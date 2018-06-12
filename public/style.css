@@ -2,7 +2,7 @@
 
 html * {
   text-align: center;
-  font-family: 'Sunflower', sans-serif;
+  font-family: 'Press Start 2P', cursive;
   font-size: 35px;
 }
 
@@ -13,10 +13,7 @@ body {
 
 }
 
-li {
 
-  font-size: 35px;
-}
 
 #RPS {
 
@@ -26,4 +23,5 @@ li {
 
 h2 {
   font-size: 50px;
+  border: 150px;
 }
